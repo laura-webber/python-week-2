@@ -1,7 +1,7 @@
 # tuple
 Bond = ("James Bond", "Maria Bond", "Consuela Bond", "Jack Bond")
 # sequence of immutable Python objects
-# objects can be of any type: variables, literals, lists, dictionaries, other tuples
+# can be of any type: variables, literals, lists, dictionaries, other tuples
 # allows duplicates
 
 toop = (1, "a", (1, 3), "Thing", 1)
@@ -12,3 +12,10 @@ toop = (1, "a", (1, 3), "Thing", 1)
 toop2 = 1, "a", (1, 3), "Thing", 1
 
 print(type(toop2))
+
+# prints with round brackets
+print(toop2)
+
+# Duck Typing - don't assign the type. Python interprets the type. "Walks like a duck;
+# quacks like a duck
+
