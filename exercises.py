@@ -94,14 +94,22 @@ print(sen2)
 # the String split() function on the variable, sen, in one statement (i.e., one line of code) and print it out.
 
 # 20) dict = {"hello": word, "love": another_word}
+dict = {
+    "hello": word,
+    "love": another_word
+}
 
 # 21) print(dict)
+print(dict)
 
 # 22) e1 = dict["hello"]
+e1 = dict["hello"]
 
 # 23) print(e1)
+print(e1)
 
 # 24) print(dict["love"])
+print(dict["love"])
 
 # 25) STRETCH: Make the console print "Hell or Python" using String slicing and the dictionary you just created, dict.
 
