@@ -1,6 +1,14 @@
 
+- get to know you
 
-terminology
+- pycharm tips
+  - folder organization
+  - naming
+  - github
+  - comments
+  - TODO
 
-exercises
+- terminology
+
+- exercises
 
