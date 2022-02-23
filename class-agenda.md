@@ -8,7 +8,10 @@
   - github
   - comments
   - output screenshots
-  - TODO
+- quiz tips
+  - [W3Schools](https://www.w3schools.com/python/default.asp)
+  
+- TODO
   
 - terminology
 
