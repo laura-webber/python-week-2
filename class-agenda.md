@@ -1,13 +1,15 @@
 
-- get to know you
+- intro breakouts
 
 - pycharm tips
   - folder organization
-  - naming
+  - right-click run | edit config
+  - naming 
   - github
   - comments
+  - output screenshots
   - TODO
-
+  
 - terminology
 
 - exercises
