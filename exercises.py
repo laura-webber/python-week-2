@@ -95,6 +95,8 @@ print(sen2)
 # 19) EXTRA STRETCH: Create and assign new variables 'a2', 'b2', 'c2', 'd2', 'e2', 'f2', 'g2', 'h2', 'i2' by using
 # the String split() function on the variable, sen, in one statement (i.e., one line of code) and print it out.
 
+
+
 # 20) dict = {"hello": word, "love": another_word}
 dict = {
     "hello": word,
