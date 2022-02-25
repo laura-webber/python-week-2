@@ -1,4 +1,3 @@
-# TODO this is a todo
 
 # 1) word = ‘Hello World’# did you get an error? How would you fix this?
 # Hint you can use both double and single quotes in Python as long as you are consistent.
@@ -95,9 +94,12 @@ print(sen2)
 # 19) EXTRA STRETCH: Create and assign new variables 'a2', 'b2', 'c2', 'd2', 'e2', 'f2', 'g2', 'h2', 'i2' by using
 # the String split() function on the variable, sen, in one statement (i.e., one line of code) and print it out.
 
+a2, b2, c2, d2, e2, f2, g2, h2, i2 = sen.split(" ")
 
+print(a2, b2, c2, d2, e2, f2, g2, h2, i2)
 
 # 20) dict = {"hello": word, "love": another_word}
+
 dict = {
     "hello": word,
     "love": another_word
@@ -116,11 +118,22 @@ print(e1)
 print(dict["love"])
 
 # 25) STRETCH: Make the console print "Hell or Python" using String slicing and the dictionary you just created, dict.
+print(dict['hello'][0:4])
+print(dict['hello'][7:9])
+print(dict['love'][-6:])
+
+print(dict['hello'][0:4] + " " + dict['hello'][7:9] + " " + dict['love'][-6:])
+
 
 # 26) dict2 = {'a3': a2, 'b3': b2, 'c3': c2, 'd3': d2, 'e3': e2, 'f3': f2, 'g3': g2, 'h3': h2, 'i3': i2}
+dict2 = {'a3': a2, 'b3': b2, 'c3': c2, 'd3': d2, 'e3': e2, 'f3': f2, 'g3': g2, 'h3': h2, 'i3': i2}
 
 # 27) print(dict2)
+print(dict2)
 
 # 28) print(type(dict2))
+print(type(dict2))
 
 # 29) EXTRA, EXTRA STRETCH: Using dict2, combine the values of each key to create one string for new variable, sen3.
+sen3 = dict2['a3'] + dict2['b3'] + dict2['c3'] + dict2['d3'] + dict2['e3'] + dict2['f3'] + dict2['g3'] + dict2['h3'] + dict2['i3']
+print(sen3)
