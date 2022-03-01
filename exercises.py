@@ -1,3 +1,4 @@
+import json
 
 # 1) word = ‘Hello World’# did you get an error? How would you fix this?
 # Hint you can use both double and single quotes in Python as long as you are consistent.
